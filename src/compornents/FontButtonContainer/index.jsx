@@ -3,7 +3,7 @@ import FontButton from "../FontButton"
 import { fontList } from "../../../data/data"
 
 
-const FontButtonContainer = ({ fontfGenre }) => {
+const FontButtonContainer = ({ fontfGenre, passFontData }) => {
 
     return (
         <div className={styles.fontButtonContainer}>
@@ -11,7 +11,7 @@ const FontButtonContainer = ({ fontfGenre }) => {
             <div className={styles.fontButton}>
                 {fontList.filter(list => list.genre === fontfGenre)
                     .map((font) =>
-                        <FontButton key={font.id} fontName={font.name} />
+                        <FontButton key={font.id} fontName={font.name} passFontData={passFontData} />
                     )
                 }
             </div>

@@ -5,3 +5,135 @@
 body {
   margin: 0;
 }
+
+@font-face {
+  font-family: 'Rampart One';
+  src: url('/fonts/RampartOne-Regular.woff2') format('woff2'),
+    url('/fonts/RampartOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sawarabi Gothic';
+  src: url('/fonts/SawarabiGothic-Regular.woff2') format('woff2'),
+    url('/fonts/SawarabiGothic-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  src: url('/fonts/ZenMaruGothic-Medium.woff2') format('woff2'),
+    url('/fonts/ZenMaruGothic-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zen Maru Gothic';
+  src: url('/fonts/ZenMaruGothic-Bold.woff2') format('woff2'),
+    url('/fonts/ZenMaruGothic-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('/fonts/NotoSansJP-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url('/fonts/NotoSerifJP-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shippori Mincho';
+  src: url('/fonts/ShipporiMincho-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'White Bear';
+  src: url('/fonts/001Shirokuma-Regular.woff2') format('woff2'),
+    url('/fonts/001Shirokuma-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hangyaku Mincho';
+  src: url('/fonts/Hangyaku.woff2') format('woff2'),
+    url('/fonts/Hangyaku.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Buildings And Tracks';
+  src: url('/fonts/Buildingsandundertherailwaytracksfree_ver-Regular.woff2') format('woff2'),
+    url('/fonts/Buildingsandundertherailwaytracksfree_ver-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kaisei Decol';
+  src: url('/fonts/KaiseiDecol-Medium.woff2') format('woff2'),
+    url('/fonts/KaiseiDecol-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Hachi Maru Pop';
+  src: url('/fonts/HachiMaruPop-Regular.woff2') format('woff2'),
+    url('/fonts/HachiMaruPop-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DotGothic16';
+  src: url('/fonts/DotGothic16-Regular.woff2') format('woff2'),
+    url('/fonts/DotGothic16-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dela Gothic One';
+  src: url('/fonts/DelaGothicOne-Regular.woff2') format('woff2'),
+    url('/fonts/DelaGothicOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cherry Bomb One';
+  src: url('/fonts/CherryBombOne-Regular.woff2') format('woff2'),
+    url('/fonts/CherryBombOne-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
