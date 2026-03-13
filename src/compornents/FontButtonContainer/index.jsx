@@ -7,7 +7,6 @@ const FontButtonContainer = ({ fontfGenre, passFontData }) => {
 
     return (
         <div className={styles.fontButtonContainer}>
-            <h3>{fontfGenre}</h3>
             <div className={styles.fontButton}>
                 {fontList.filter(list => list.genre === fontfGenre)
                     .map((font) =>
