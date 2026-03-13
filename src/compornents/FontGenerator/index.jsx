@@ -1,6 +1,6 @@
 import { useState } from "react"
 import styles from "./fontGenerator.module.css"
-import FontButton from "../FontButton"
+import TestArea from "../TestArea"
 import FontButtonContainer from "../FontButtonContainer"
 
 
@@ -9,19 +9,18 @@ const genres = [
 ]
 
 const FontGenerator = () => {
+    const [showFont, setShowFont] = useState(null)
     return (
         <div className="page">
-            <div className={styles.viwer}>
-                <p>これは日本語のかわいいフォントです。</p>
-                <p>This is Japanese lovely fonts.</p>
-            </div>
+
+            <TestArea fontName={showFont} />
+
             <div className={styles.buttonContainerWrapper}>
                 {genres.map((genre, index) =>
-                    <FontButtonContainer fontfGenre={genre} />
+                    <FontButtonContainer fontfGenre={genre} passFontData={setShowFont} />
                 )}
             </div>
         </div>
-
     )
 
 }

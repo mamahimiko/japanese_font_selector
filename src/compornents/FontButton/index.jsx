@@ -1,10 +1,18 @@
 import styles from "./fontButton.module.css"
 
+const FontButton = ({ fontName, passFontData }) => {
 
-const FontButton = ({ fontName }) => {
+    const handleClick = () => {
+        passFontData(fontName)
+    }
+
     return (
         <>
-            <button className={styles.fontButton}>{fontName}</button>
+            <button
+                onClick={handleClick}
+                className={styles.fontButton}>
+                {fontName}
+            </button>
         </>
     )
 }

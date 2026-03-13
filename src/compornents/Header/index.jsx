@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.titleLogo}>
-                <h1>Kawaii Japanese Fonts!</h1>
+                <h1>Moji-Labo</h1>
             </div>
             <nav className={styles.navigation}>
                 <ul className={styles.menu}>
