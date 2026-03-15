@@ -1,0 +1,110 @@
+.tagWrapper {
+    padding: 0 16px 16px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.hashTag {
+    color: #1d9bf0;
+    font-size: 0.85rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.genre {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+
+.name h3 {
+    margin: 0;
+    font-size: 1.5rem;
+
+}
+
+.name h4 {
+    margin: 0;
+
+}
+
+.description {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.testArea {
+    border: solid gray;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.japanese_font {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.english_font {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+
+.Noto_Sans_JP {
+    font-family: 'Noto Sans JP';
+}
+
+.Sawarabi_Gothic {
+    font-family: 'Sawarabi Gothic';
+}
+
+.Noto_Serif_JP {
+    font-family: 'Noto Serif JP';
+}
+
+.Shippori_Mincho {
+    font-family: 'Shippori Mincho';
+}
+
+.Zen_Maru_Gothic {
+    font-family: 'Zen Maru Gothic';
+}
+
+.Rampart_One {
+    font-family: 'Rampart One';
+}
+
+.Buildings_And_Tracks {
+    font-family: 'Buildings And Tracks';
+}
+
+.White_Bear {
+    font-family: 'White Bear';
+}
+
+.Hangyaku_Mincho {
+    font-family: 'Hangyaku Mincho';
+}
+
+.Kaisei_Decol {
+    font-family: 'Kaisei Decol';
+}
+
+.Hachi_Maru_Pop {
+    font-family: 'Hachi Maru Pop';
+}
+
+.DotGothic16 {
+    font-family: 'DotGothic16';
+}
+
+.Dela_Gothic_One {
+    font-family: 'Dela Gothic One';
+}
+
+.Cherry_Bomb_One {
+    font-family: 'Cherry Bomb One', 'Zen Maru Gothic';
+}

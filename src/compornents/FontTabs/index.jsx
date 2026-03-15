@@ -2,6 +2,7 @@ import { useState } from "react"
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
 
 const TabPanel = (props) => {
     const { children, value, index, ...other } = props;
@@ -32,25 +33,27 @@ const FontTabs = (props) => {
 
     return (
         <>
-            <Box sx={{ width: '100%' }}>
-                <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                    <Tabs
-                        value={value}
-                        onChange={handleChange}
-                        variant="scrollable"
-                        scrollButtons
-                        allowScrollButtonsMobile
-                        textColor="secondary"
-                        indicatorColor="secondary"
-                        aria-label="secondary tabs example"
-                    >
-                        {props.labels.map(label => <Tab label={label}></Tab>)}
-                    </Tabs>
+            <Paper elevation={3}>
+                <Box sx={{ width: '100%' }}>
+                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                        <Tabs
+                            value={value}
+                            onChange={handleChange}
+                            variant="scrollable"
+                            scrollButtons
+                            allowScrollButtonsMobile
+                            textColor="secondary"
+                            indicatorColor="secondary"
+                            aria-label="secondary tabs example"
+                        >
+                            {props.labels.map((label, index) => <Tab key={index} label={label}></Tab>)}
+                        </Tabs>
+                    </Box>
+                    {props.children.map((child, index) =>
+                        <TabPanel value={value} index={index} key={index}>{child}</TabPanel>)
+                    }
                 </Box>
-                {props.children.map((child, index) =>
-                    <TabPanel value={value} index={index}>{child}</TabPanel>)
-                }
-            </Box>
+            </Paper>
         </>
     )
 
