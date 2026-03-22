@@ -1,0 +1,35 @@
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 180px;
+    object-fit: cover;
+}
+
+.navigation {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    margin: 0;
+}
+
+.menu li {
+    list-style: none;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        justify-content: space-around;
+
+    }
+}

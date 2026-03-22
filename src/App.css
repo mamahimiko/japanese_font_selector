@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  --primary-color: #ffffff;
+  --secondary: #ce9f99;
+  --tertiary: #fae29c;
+  --text-color: #666666;
+}
+
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  color: var(--text-color);
+  background-color: var(--primary-color);
 }
+
+h2 {
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
 
 @font-face {
   font-family: 'Rampart One';
@@ -122,8 +147,7 @@ body {
 
 @font-face {
   font-family: 'Dela Gothic One';
-  src: url('/fonts/DelaGothicOne-Regular.woff2') format('woff2'),
-    url('/fonts/DelaGothicOne-Regular.woff') format('woff');
+  src: url('/fonts/DelaGothicOne-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

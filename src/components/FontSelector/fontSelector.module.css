@@ -1,0 +1,13 @@
+.pageTitle {
+    padding: 10px;
+}
+
+.viewer {
+    border: solid;
+    text-align: center;
+}
+
+.buttonContainerWrapper {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,11 @@
+.main {
+    padding: 30px 5%;
+    flex-grow: 2
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        padding: 30px 20%;
+
+    }
+}

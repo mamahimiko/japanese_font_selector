@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './compornents/Header'
-import Footer from './compornents/Footer'
-import FontSelector from './compornents/FontSelector'
-import FontInfoPage from './compornents/FontInfoPage'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
+
 
 function App() {
 
@@ -12,8 +12,7 @@ function App() {
   return (
     <>
       <Header updateFunction={setPage} />
-      {!page && <FontSelector />}
-      {page === "fontInfo" && <FontInfoPage />}
+      <Main page={page} />
       <Footer />
     </>
   )

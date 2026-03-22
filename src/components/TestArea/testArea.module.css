@@ -1,0 +1,123 @@
+.testArea {
+    text-align: center;
+    border: 2px solid #ddd;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 60px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    background-repeat: repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+
+.japanese_font {
+    font-size: 1.9rem;
+    margin: 0;
+    letter-spacing: 0.03em;
+}
+
+.english_font {
+    font-size: 1.5rem;
+    margin: 0;
+    opacity: 0.7;
+}
+
+
+.Noto_Sans_JP {
+    font-family: 'Noto Sans JP';
+    background-image: url(../../assets/images/notebook.png);
+    color: #2C3E50;
+    background-color: #f7f9fb;
+}
+
+.Sawarabi_Gothic {
+    font-family: 'Sawarabi Gothic';
+    background-image: url(../../assets/images/white-waves.webp);
+    color: #ddd;
+    background-color: #e56258;
+
+}
+
+.Noto_Serif_JP {
+    font-family: 'Noto Serif JP';
+    background-image: url(../../assets/images/paper.png);
+    color: #2D241E;
+}
+
+.Shippori_Mincho {
+    font-family: 'Shippori Mincho';
+    background-image: url(../../assets/images/ricepaper.png);
+    color: #5D4037;
+}
+
+.Zen_Maru_Gothic {
+    font-family: 'Zen Maru Gothic';
+    background-image: url(../../assets/images/circles.webp);
+    color: #333333;
+    background-color: #efefef;
+}
+
+.Rampart_One {
+    font-family: 'Rampart One';
+    background-image: url(../../assets/images/zigzag.png);
+    color: #00FFD1;
+}
+
+.White_Bear {
+    font-family: 'White Bear';
+    background-image: url(../../assets/images/blue-snow.png);
+    color: #6D4C41;
+}
+
+.Hangyaku_Mincho {
+    font-family: 'Hangyaku Mincho';
+    background-image: url(../../assets/images/dark_mosaic.png);
+    color: #ECF0F1;
+    background-color: #2c3e50;
+    background-blend-mode: overlay;
+}
+
+.Kaisei_Decol {
+    font-family: 'Kaisei Decol';
+    background-image: url(../../assets/images/old_wall.png);
+    color: #573fa3;
+}
+
+.Hachi_Maru_Pop {
+    font-family: 'Hachi Maru Pop';
+    background-image: url(../../assets/images/double-bubble-outline.png);
+    background-color: #6C5CE7;
+    color: #FDCB6E;
+}
+
+.DotGothic16 {
+    font-family: 'DotGothic16';
+    background-image: url(../../assets/images/pixel_weave.png);
+    color: #39FF14;
+    background-color: #0D0D0D;
+}
+
+.Dela_Gothic_One {
+    font-family: 'Dela Gothic One';
+    background-image: url(../../assets/images/pow-star.webp);
+    background-color: #EADBC8;
+    color: #C0392B;
+}
+
+.Cherry_Bomb_One {
+    font-family: 'Cherry Bomb One', 'Zen Maru Gothic';
+    background-image: url(../../assets/images/repeated-square.png);
+    color: #F8E9F8;
+    background-color: #E4709D;
+}
+
+@media screen and (min-width: 1024px) {
+    .japanese_font {
+        font-size: 2.5rem;
+    }
+
+    .english_font {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,42 @@
+.contact_description {
+    padding: 2rem 0;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--tertiary);
+    border-radius: 15px;
+    align-items: center;
+}
+
+.profile_image {
+    width: 200px;
+}
+
+.profile_leftContainer {
+    margin: 1rem;
+}
+
+.profile_leftContainer h3 {
+    font-size: 1.4rem;
+}
+
+.snsLinks {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    gap: 1rem
+}
+
+
+@media (min-width: 800px) {
+    .profile {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}

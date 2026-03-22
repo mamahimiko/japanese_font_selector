@@ -1,0 +1,11 @@
+.fontButtonContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fontButtonWrapper {
+    display: flex;
+    gap: 1rem;
+
+}
