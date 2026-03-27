@@ -8,7 +8,6 @@ import Tags from "../Tags"
 
 const FontListPage = () => {
     const [showFontCard, setShowFontCard] = useState([])
-    console.log(showFontCard)
 
     const toggleTag = (tag) => {
         if (tag === "all") {

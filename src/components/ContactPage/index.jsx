@@ -21,8 +21,8 @@ const Contact = () => {
                 <div className={styles.profile_leftContainer}>
                     <h3>Maho Kurauchi</h3>
                     <div className={styles.snsLinks}>
-                        <FaLinkedin />
-                        <FaGithub />
+                        <a href="https://www.linkedin.com/in/maho-kurauchi/"><FaLinkedin /></a>
+                        <a href="https://github.com/mamahimiko"><FaGithub /></a>
                     </div>
                 </div>
             </div >

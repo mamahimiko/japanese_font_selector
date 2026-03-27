@@ -29,7 +29,11 @@
     display: flex;
     font-size: 1.5rem;
     justify-content: center;
-    gap: 1rem
+    gap: 1rem;
+}
+
+.snsLinks a {
+    color: var(--text-color);
 }
 
 
